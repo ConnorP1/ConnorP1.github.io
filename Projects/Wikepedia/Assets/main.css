@@ -1,0 +1,139 @@
+.container {
+  display: flex;
+  /*flex-direction:  column;*/
+  justify-content: space-between 10px;
+  flex-wrap: wrap;
+  padding: 10px;
+  height: 100vh;
+  background-color: #ffffff;
+  /*min-height: 300px;*/
+  font-family: "PT Mono", monospace;
+  color: #042135;
+  font-size: 36px;
+  text-align: center;
+  justify-content: flex-start;
+}
+/*this tells the browser to account for any border and padding in the values you specify for an element's width and height.*/
+* {
+  box-sizing: border-box;
+}
+
+.item {
+  /*margin: 10px 10px;*/
+  width: 200px;
+  height: 200px;
+  font-size: 18px;
+}
+
+.item1 {
+  background-image: url(Wiki\ PNG.png);
+  background-color: #e0e0e0;
+  background-size: 200px;
+}
+
+.item2 {
+  background-color: #e0e0e0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+}
+
+.item3 {
+  background-color: #e0e0e0;
+}
+
+.item4 {
+  background-color: #e0e0e0;
+}
+
+.item5 {
+  background-color: #e0e0e0;
+}
+
+.item6 {
+  background-color: #e0e0e0;
+}
+
+.container2 {
+  display: flex;
+  /*flex-direction:  column;*/
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 10px;
+  height: 100vh;
+  background-color: #ffffff;
+  /*min-height: 300px;*/
+  font-family: "PT Mono", monospace;
+  color: #042135;
+  font-size: 36px;
+  text-align: left;
+  flex-direction: column;
+}
+
+.item-h {
+  font-weight: bold;
+  font-size: 30px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.item-1 {
+  width: 100vh;
+  height: 10vh;
+  padding-top: 50px;
+  font-size: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  flex-direction: column;
+  justify-self: flex-start;
+}
+
+.item-2 {
+  width: 100vh;
+  height: 100vh;
+  padding-top: 50px;
+  flex-direction: column;
+  color: rgb(207, 207, 207);
+}
+
+.item-e {
+  font-weight: bold;
+  font-size: 30px;
+  padding-top: 50px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  flex-direction: column;
+  justify-self: flex-start;
+}
+
+.item-c {
+  font-weight: bold;
+  font-size: 30px;
+  padding-top: 50px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  flex-direction: column;
+  justify-self: flex-start;
+}
+.container3 {
+  display: flex;
+  /*flex-direction:  column;*/
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 10px;
+  width: 200px;
+  height: 100vh;
+  background-color: #f1f1f1;
+  /*min-height: 300px;*/
+  font-family: "PT Mono", monospace;
+  color: #042135;
+  font-size: 36px;
+  text-align: center;
+  flex-direction: column;
+}
+
+.atphoto {
+  background-image: url("Aphex\ Twin.png");
+  background-color: #e0e0e0;
+  background-size: 200px;
+}
