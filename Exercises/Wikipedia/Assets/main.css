@@ -135,5 +135,6 @@
 .atphoto {
   background-image: url("Aphex\ Twin.png");
   background-color: #e0e0e0;
-  background-size: 200px;
+  background-size: 50px;
+  height: 100px;
 }
