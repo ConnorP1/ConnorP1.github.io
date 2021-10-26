@@ -254,7 +254,7 @@ body {
 
 .gourd {
   background: rgb(231, 49, 4);
-  width: 100px;
+  width: 96px;
   height: 80px;
   position: absolute;
   margin-top: 500px;
@@ -267,13 +267,13 @@ body {
 .gourd2 {
   width: 0;
   height: 0;
-  border-left: 40px solid transparent;
-  border-right: 40px solid transparent;
-  border-top: 65px solid rgba(187, 214, 219, 0.603);
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-top: 65px solid rgb(231, 49, 4);
   border-radius: 50%;
   position: absolute;
   z-index: 4;
-  margin-top: px;
-  margin-left: 700px;
+  margin-top: 448px;
+  margin-left: 688px;
   transform: rotate(180deg);
 }
