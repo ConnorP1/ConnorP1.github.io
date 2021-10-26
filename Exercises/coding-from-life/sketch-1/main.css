@@ -1,0 +1,279 @@
+/*
+  Coding from Life – Sketch 1: fixed layout
+
+  For sketch 1 you'll be positioning elements relative to an element with a fixed
+  width and height. For this sketch you can position elements by using pixel values.
+*/
+
+body {
+  background-color: black;
+}
+
+.frame {
+  width: 95vw;
+  height: 57vw;
+  background: rgb(247, 207, 134);
+  margin: 2.5vw auto;
+  position: relative;
+}
+
+.table {
+  background-color: rgb(182, 182, 182);
+  width: 70%;
+  height: 2%;
+  margin: 30px auto;
+  bottom: 100px;
+  position: absolute;
+  transform: rotate(3deg);
+}
+
+.table-top {
+  background-color: rgb(235, 235, 235);
+
+  width: 70%;
+  height: 50%;
+  margin: 20px auto;
+  bottom: 120px;
+  position: absolute;
+  transform: rotate(3deg);
+  transform: skewY(3deg);
+  z-index: 1;
+}
+
+.table-leg {
+  width: 2%;
+  height: 13.8%;
+  margin-left: 830px;
+  margin-top: 709px;
+  position: absolute;
+  background-color: rgb(163, 98, 18);
+  transform-style: skewY(75deg);
+  transform: rotate(3deg);
+}
+
+.candle {
+  background-color: rgb(240, 221, 116);
+  width: 17px;
+  height: 25px;
+  margin-top: 335px;
+  margin-left: 250px;
+  position: absolute;
+  z-index: 3;
+  border-top-right-radius: 2px;
+  border-top-left-radius: 2px;
+}
+
+.candle-bottom {
+  background-color: rgb(240, 221, 116);
+  width: 3px;
+  height: 60px;
+  margin-top: 360px;
+  margin-left: 18.8%;
+  position: absolute;
+  z-index: 2;
+}
+
+.candle-base {
+  background-color: rgb(240, 221, 116);
+  width: 40px;
+  height: 10px;
+  margin-top: 420px;
+  margin-left: 17.48%;
+  position: absolute;
+  border-top-right-radius: 40%;
+  border-top-left-radius: 40%;
+  z-index: 2;
+  transform: skewX(30%);
+}
+
+.candle-top {
+  background-color: rgb(255, 255, 255);
+  width: 14px;
+  height: 45px;
+  margin-top: 298px;
+  margin-left: 18.43%;
+  position: absolute;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  z-index: 2;
+}
+
+.wick {
+  background-color: rgb(0, 0, 0);
+  width: 3px;
+  height: 15px;
+  margin-top: 283px;
+  margin-left: 18.8%;
+  position: absolute;
+  z-index: 3;
+}
+
+.vase {
+  background-color: rgba(225, 242, 245, 0.486);
+  background-image: linear-gradient(
+    rgba(208, 237, 243, 0.692),
+    rgba(120, 186, 202, 0.479),
+    white
+  );
+  width: 50px;
+  height: 100px;
+  margin-top: 328px;
+  margin-left: 480px;
+  position: absolute;
+  z-index: 4;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.cone {
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 65px solid rgba(187, 214, 219, 0.603);
+  border-radius: 50%;
+  position: absolute;
+  z-index: 4;
+  margin-top: 425px;
+  margin-left: 467px;
+  transform: rotate(180deg);
+}
+
+.flowerstem {
+  background-color: rgb(83, 148, 97);
+  width: 3px;
+  height: 130px;
+  margin-top: 300px;
+  margin-left: 515px;
+  position: absolute;
+  z-index: 3;
+  transform: rotate(16deg);
+}
+.flowerstem2 {
+  background-color: rgb(83, 148, 97);
+  width: 3px;
+  height: 130px;
+  margin-top: 300px;
+  margin-left: 495px;
+  position: absolute;
+  z-index: 3;
+  transform: rotate(-14deg);
+}
+
+.flowerstem3 {
+  background-color: rgb(83, 148, 97);
+  width: 3px;
+  height: 130px;
+  margin-top: 298px;
+  margin-left: 505px;
+  position: absolute;
+  z-index: 3;
+  transform: rotate(5deg);
+}
+
+.petal {
+  background: rgba(187, 53, 68, 0.719);
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  position: absolute;
+  margin-top: 278px;
+  margin-left: 497px;
+  z-index: 6;
+}
+.petal:before,
+.petal:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 30px;
+  width: 30px;
+  background: rgba(175, 46, 61, 0.719);
+}
+.petal:before {
+  transform: rotate(30deg);
+}
+.petal:after {
+  transform: rotate(60deg);
+}
+
+.petal2 {
+  background: rgba(182, 83, 133, 0.719);
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  position: absolute;
+  margin-top: 281px;
+  margin-left: 465px;
+  z-index: 6;
+}
+.petal2:before,
+.petal2:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background: rgba(196, 138, 170, 0.719);
+}
+.petal2:before {
+  transform: rotate(30deg);
+}
+.petal2:after {
+  transform: rotate(60deg);
+}
+
+.petal3 {
+  background: rgba(223, 91, 223, 0.719);
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  position: absolute;
+  margin-top: 281px;
+  margin-left: 528px;
+  z-index: 5;
+}
+.petal3:before,
+.petal3:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background: rgba(189, 67, 219, 0.719);
+}
+.petal3:before {
+  transform: rotate(30deg);
+}
+.petal3:after {
+  transform: rotate(60deg);
+}
+
+.gourd {
+  background: rgb(231, 49, 4);
+  width: 100px;
+  height: 80px;
+  position: absolute;
+  margin-top: 500px;
+  margin-left: 700px;
+  z-index: 6;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.gourd2 {
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 65px solid rgba(187, 214, 219, 0.603);
+  border-radius: 50%;
+  position: absolute;
+  z-index: 4;
+  margin-top: px;
+  margin-left: 700px;
+  transform: rotate(180deg);
+}
