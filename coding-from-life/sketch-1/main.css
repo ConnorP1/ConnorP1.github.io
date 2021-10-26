@@ -1,0 +1,51 @@
+/*
+  Coding from Life – Sketch 1: fixed layout
+
+  For sketch 1 you'll be positioning elements relative to an element with a fixed
+  width and height. For this sketch you can position elements by using pixel values.
+*/
+
+body {
+  background-color: black;
+}
+
+.frame {
+  width: 95vw;
+  height: 57vw;
+  background: white;
+  margin: 2.5vw auto;
+  position: relative;
+}
+
+.table {
+  background-color: rgb(182, 182, 182);
+  width: 70%;
+  height: 2%;
+  margin: 30px auto;
+  bottom: 100px;
+  position: absolute;
+  transform: rotate(3deg);
+}
+
+.table-top {
+  background-color: rgb(235, 235, 235);
+
+  width: 70%;
+  height: 50%;
+  margin: 20px auto;
+  bottom: 120px;
+  position: absolute;
+  transform: rotate(3deg);
+  transform: skewY(3deg);
+}
+
+.table-leg {
+  width: 2%;
+  height: 13.7%;
+  margin-left: 830px;
+  position: absolute;
+  background-color: rgb(163, 98, 18);
+  transform: skewY(3deg);
+  transform: rotate(3deg);
+}
+/* Your CSS goes here */

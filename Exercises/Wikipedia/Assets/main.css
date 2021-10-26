@@ -29,6 +29,16 @@
   background-image: url(Wiki\ PNG.png);
   background-color: #e0e0e0;
   background-size: 200px;
+  width: fit-content;
+}
+
+.aphex2 {
+  background-image: url(Aphex\ 2\ .jpg);
+  background-size: 200px;
+  width: 50px;
+  flex:content;
+  display: flex;
+
 }
 
 .item2 {
@@ -105,7 +115,6 @@
   flex-direction: column;
   justify-self: flex-start;
 }
-
 .item-c {
   font-weight: bold;
   font-size: 30px;
@@ -117,24 +126,30 @@
 }
 .container3 {
   display: flex;
-  /*flex-direction:  column;*/
+}
+  
+.container2 {
   justify-content: flex-start;
   flex-wrap: wrap;
   padding: 10px;
   width: 200px;
   height: 100vh;
   background-color: #f1f1f1;
-  /*min-height: 300px;*/
+  padding: 10px;
+  heigh
   font-family: "PT Mono", monospace;
   color: #042135;
   font-size: 36px;
   text-align: center;
   flex-direction: column;
 }
-
 .atphoto {
   background-image: url("Aphex\ Twin.png");
   background-color: #e0e0e0;
   background-size: 50px;
   height: 100px;
+}
+
+.sec1 {
+  font-weight:
 }
