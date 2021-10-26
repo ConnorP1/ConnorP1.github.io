@@ -277,3 +277,14 @@ body {
   margin-left: 688px;
   transform: rotate(180deg);
 }
+
+.gourd3 {
+  position: absolute;
+  z-index: 4;
+  margin-top: 440px;
+  margin-left: 743px;
+  width: 10px;
+  height: 20px;
+  transform: rotate(180deg);
+  background-color: rgb(20, 32, 0);
+}
