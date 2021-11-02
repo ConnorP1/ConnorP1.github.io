@@ -56,12 +56,12 @@ body {
   }
 }
 
-.Shapes {
+#Shapes {
   animation: ShapesSpin 5s linear infinite;
   height: 200px;
 }
 
-.Shapes:hover {
+#Shapes:hover {
   animation-play-state: paused;
   cursor: pointer;
 }
