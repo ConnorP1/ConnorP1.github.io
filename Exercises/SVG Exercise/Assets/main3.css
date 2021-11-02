@@ -1,7 +1,7 @@
 body {
-  background-color: rgb(102, 102, 102);
+  background-color: rgb(131, 38, 54);
   font-family: arial;
-  color: rgb(130, 120, 189);
+  color: rgb(38, 0, 255);
   font-size: 100px;
 }
 
@@ -29,7 +29,7 @@ body {
   }
 }
 
-@keyframes ShapesSpin {
+@keyframes yinyangSpin {
   0% {
     transform: rotate(0turn);
   }
@@ -38,35 +38,41 @@ body {
   }
 }
 
-@keyframes ShapesGrow {
+@keyframes colorSwap {
   0% {
-    transform: scale(0%);
+    fill: default;
   }
   100% {
-    transform: scale(50%);
+    fill: #6d79cd;
   }
 }
 
 @keyframes fade {
   0% {
-    opacity: 5;
+    opacity: 1;
   }
   100% {
     opacity: 0;
   }
 }
 
-#Shapes {
-  animation: ShapesSpin 5s linear infinite;
-  height: 200px;
+#yin-yang {
+  animation: yinyangSpin 5s ease-out infinite;
+  height: 500px;
 }
 
-#Shapes:hover {
+#yin-yang path,
+#yin-yang circle {
+  animation: colorSwap 5s ease-in infinite alternate,
+    fade 5s ease-in infinite alternate-reverse;
+}
+
+#yin-yang:hover {
   animation-play-state: paused;
   cursor: pointer;
 }
 
 /*basic animation, spins once in one second*/
 div.item {
-  animation: spinType 5s;
+  animation: spinType 1s;
 }
