@@ -1,0 +1,33 @@
+body {
+  background: rgb(0, 254, 218);
+  background: linear-gradient(
+    90deg,
+    rgb(254, 207, 0) 10%,
+    rgb(53, 81, 121) 30%,
+    rgb(228, 155, 87) 100%
+  );
+  color: white;
+  font-family: arial;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.blob {
+  position: absolute;
+  width: 500px;
+  height: 207px;
+  background: #030961;
+  border-radius: 50%;
+  mix-blend-mode: color-dodge;
+}
+
+.blob:hover {
+  cursor: pointer;
+  transform: skewX(60px);
+}
