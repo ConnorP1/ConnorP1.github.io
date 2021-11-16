@@ -31,3 +31,8 @@ body {
   cursor: pointer;
   transform: skewX(60px);
 }
+
+#body_id {
+  height: 100px;
+  background-color: blue;
+}

@@ -8,3 +8,7 @@ document.querySelectorAll(".load-image").forEach((item) => {
     event.target.remove();
   });
 });
+
+var $ = function (id) {
+  return document.getElementById(id);
+};
