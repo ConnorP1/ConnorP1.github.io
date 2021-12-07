@@ -26,9 +26,6 @@
 }
 
 .item1 {
-  background-image: url(Wiki\ PNG.png);
-  background-color: #e0e0e0;
-  background-size: 200px;
   width: fit-content;
 }
 
@@ -144,7 +141,7 @@
   flex-direction: column;
 }
 .atphoto {
-  background-image: url("Aphex\ Twin.png");
+  background-image: url(Aphex\ Twin.png)no-repeat;
   background-color: #e0e0e0;
   background-size: 50px;
   height: 100px;

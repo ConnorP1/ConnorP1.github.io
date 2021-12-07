@@ -30,8 +30,100 @@ body {
   transition-duration: 1s;
 }
 
+.INT1 {
+  width: 40vh;
+  height: 15vh;
+  margin-top: 2%;
+  margin-right: %;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  animation-name: floating;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.WEB1 {
+  width: 50vh;
+  height: 30vh;
+  margin-top: 5%;
+  margin-right: 800%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 3px;
+  border-style: groove;
+  z-index: 3;
+}
+
+.WEB1:hover {
+  cursor: pointer;
+  transform: scale(105%);
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.5s;
+}
+
+.WEB2 {
+  width: 50vh;
+  height: 30vh;
+  margin-top: 0%;
+  margin-right: 800%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  border: 3px;
+  border-style: groove;
+  justify-content: center;
+}
+
+.WEB2:hover {
+  cursor: pointer;
+  transform: scale(105%);
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.5s;
+}
+
+.WEB3 {
+  width: 50vh;
+  height: 30vh;
+  margin-top: 0%;
+  margin-right: 800%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  border: 3px;
+  border-style: groove;
+  justify-content: center;
+}
+
+.WEB3:hover {
+  cursor: pointer;
+  transform: scale(105%);
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.5s;
+}
+
 a:hover {
   cursor: pointer;
+}
+
+.INT1:hover {
+  animation-play-state: paused;
 }
 
 @keyframes floating {

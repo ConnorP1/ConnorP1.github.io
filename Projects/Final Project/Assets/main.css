@@ -80,7 +80,6 @@ body {
 }
 
 .CP2:hover {
-  cursor: pointer;
   animation-play-state: paused;
 }
 
