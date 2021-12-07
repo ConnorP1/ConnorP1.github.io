@@ -1,0 +1,156 @@
+body {
+  background-color: rgb(90, 110, 84);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.CP2 {
+  width: 60vh;
+  height: 30vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation-name: floating;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.RG {
+  width: 30vh;
+  height: 15vh;
+  margin-top: 150px;
+  margin-right: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.INT {
+  width: 35vh;
+  height: 15vh;
+  margin-top: 150px;
+  margin-left: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.EX {
+  width: 35vh;
+  height: 15vh;
+  margin-top: 150px;
+  margin-left: 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+
+.CP2:hover {
+  cursor: pointer;
+  animation-play-state: paused;
+}
+
+.RG:hover {
+  cursor: pointer;
+  animation-name: floating;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.INT:hover {
+  cursor: pointer;
+  animation-name: floating;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.EX:hover {
+  cursor: pointer;
+  animation-name: floating;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider {
+  z-index: 1;
+  margin-top: 2em;
+  border: 1px solid black;
+  -webkit-appearance: none; /* Override default CSS styles */
+  appearance: none;
+  width: 500px; /* Specified height */
+  height: 50px; /* Specified height */
+  background: white; /* background color */
+  outline: none; /* Remove outline */
+  opacity: 0.4; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: 0.2s; /* 0.2 seconds transition on hover */
+  transition: all 0.2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+  border: 1px dotted black;
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 50px; /* Set a specific slider handle width */
+  height: 50px; /* Slider handle height */
+  border-radius: 50%; /* Make it a circle */
+  background: OliveDrab; /*  background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+  width: 50px; /* Set a specific slider handle width */
+  height: 50px; /* Slider handle height */
+  background: OliveDrab;
+  cursor: pointer; /* Cursor on hover */
+}

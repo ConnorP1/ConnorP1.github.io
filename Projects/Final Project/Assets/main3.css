@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(90, 110, 84);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.CP3 {
+  width: 15vh;
+  height: 10vh;
+  margin-top: 0%;
+  margin-left: 80%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.CP3:hover {
+  cursor: pointer;
+  transform: rotate(360deg);
+  transition-timing-function: ease-in-out;
+  transition-duration: 1s;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}

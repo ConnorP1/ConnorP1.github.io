@@ -1,0 +1,95 @@
+body {
+  background-color: rgb(90, 110, 84);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.ROG {
+  width: 40vh;
+  height: 15vh;
+  margin-top: 0%;
+  margin-right: 800%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  animation-name: floating;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.RO {
+  width: 110vh;
+  height: 70vh;
+  margin-top: 5%;
+  margin-right: 800%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.RO:hover {
+  cursor: pointer;
+  transform: scale(101%);
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.5s;
+}
+
+.CP3 {
+  width: 15vh;
+  height: 10vh;
+  margin-top: 0%;
+  margin-left: 80%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.CP3:hover {
+  cursor: pointer;
+  transform: rotate(360deg);
+  transition-timing-function: ease-in-out;
+  transition-duration: 1s;
+}
+
+a:hover {
+  cursor: pointer;
+}
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+
+.ROG:hover {
+  animation-play-state: paused;
+}
