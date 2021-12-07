@@ -1,0 +1,187 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.example {
+  color: rgb(157, 185, 221);
+  font-size: 230px;
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+  float: inline-start;
+}
+
+.example:hover {
+  perspective: 1000px;
+  cursor: pointer;
+  animation: shake 500ms infinite;
+  animation-timing-function: linear;
+}
+.caption:hover {
+  perspective: 1000px;
+  cursor: pointer;
+  animation: shake 500ms infinite;
+  animation-timing-function: linear;
+}
+
+.links {
+  color: rgb(96, 114, 138);
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: rgb(96, 114, 138);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(0.5deg);
+  }
+  50% {
+    transform: rotate(-0.5deg);
+  }
+  100% {
+    transform: rotate(0.5deg);
+  }
+}
+
+.shape {
+  background-color: rgb(227, 239, 248);
+  border-radius: 100%;
+  height: 800px;
+  width: 800px;
+  position: absolute;
+  z-index: -1;
+  margin-left: 700px;
+  margin-bottom: 300px;
+}
+
+.shape2 {
+  background-color: rgb(241, 243, 245);
+  border-radius: 100%;
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  z-index: -2;
+  margin-left: 500px;
+  margin-bottom: 300px;
+}
+
+.shape3 {
+  background-color: rgb(227, 239, 248);
+  border-radius: 100%;
+  height: 550px;
+  width: 550px;
+  position: absolute;
+  z-index: -1;
+  margin-left: 50px;
+  margin-bottom: 700px;
+}
+
+.shape4 {
+  background-color: rgb(227, 239, 248);
+  border-radius: 100%;
+  height: 550px;
+  width: 550px;
+  position: absolute;
+  z-index: -1;
+  margin-left: 900px;
+  margin-bottom: 700px;
+}
+
+.shape5 {
+  background-color: rgb(205, 236, 255);
+  border-radius: 100%;
+  height: 350px;
+  width: 350px;
+  position: absolute;
+  z-index: -1;
+  margin-left: 700px;
+  margin-bottom: 200px;
+  margin-top: 300px;
+}
+
+.shape6 {
+  background-color: rgb(177, 225, 255);
+  border-radius: 100%;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  z-index: -1;
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
+
+.caption {
+  color: rgb(96, 114, 138);
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+
+img {
+  max-width: 428px;
+  float: right;
+  align-content: space-between;
+}
+
+.intro {
+  color: rgb(77, 77, 77);
+  font-size: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 100px;
+}
+
+.q1 {
+  color: rgb(56, 56, 56);
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  margin-top: 80px;
+}
+
+.r1 {
+  color: rgb(180, 180, 180);
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+}
+
+.q2 {
+  color: rgb(56, 56, 56);
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.r2 {
+  color: rgb(180, 180, 180);
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+}
+
+.q3 {
+  color: rgb(56, 56, 56);
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.r3 {
+  color: rgb(180, 180, 180);
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+}

@@ -1,0 +1,113 @@
+body {
+  background-color: rgb(204, 218, 205);
+}
+
+.example {
+  color: rgb(255, 255, 255);
+  font-size: 80px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  float: inline-start;
+  text-align: left;
+  margin-left: 50px;
+}
+body {
+  border: 5px solid rgb(40, 48, 41);
+}
+.links {
+  position: absolute;
+  top: 16.5%;
+  right: 68%;
+  transform: scale(1.5, 1.5) translate(-50%, -50%);
+  height: 20px;
+  width: 60px;
+  background: #b7d8a7;
+  border-radius: 50%;
+  animation: pulse 2s infinite;
+  text-align: center;
+}
+
+.links:hover {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(80, 68, 41, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 50px rgba(168, 63, 57, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 150px rgba(168, 63, 57, 0);
+  }
+}
+
+.example:hover {
+  cursor: pointer;
+}
+
+.caption {
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: italic;
+  text-align: left;
+  margin-left: 50px;
+}
+
+.intro {
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 500px;
+  text-align: left;
+}
+
+.q1 {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  margin-top: 80px;
+  margin-left: 50px;
+  margin-right: 500px;
+  text-align: left;
+}
+
+.r1 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 500px;
+  text-align: left;
+}
+
+.grass {
+  content: url(Grass\ .png);
+  height: 700px;
+  width: 1398.5px;
+  position: relative;
+  padding-top: 30px;
+}

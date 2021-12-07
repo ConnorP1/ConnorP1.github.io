@@ -1,0 +1,113 @@
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+.example {
+  color: rgb(255, 255, 255);
+  font-size: 80px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  float: inline-start;
+  text-align: center;
+}
+
+.example:hover {
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff,
+    0 0 42px rgb(221, 221, 221), 0 0 82px rgb(248, 248, 248),
+    0 0 92px rgb(185, 185, 185), 0 0 102px rgb(235, 235, 235),
+    0 0 151px rgb(240, 240, 240);
+  cursor: pointer;
+}
+
+.caption {
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: italic;
+  text-align: center;
+}
+
+.links {
+  font-size: 30px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(0.5deg);
+  }
+  50% {
+    transform: rotate(-0.5deg);
+  }
+  100% {
+    transform: rotate(0.5deg);
+  }
+}
+
+img {
+  max-width: 428px;
+  float: right;
+  align-content: space-between;
+}
+
+.intro {
+  color: rgb(121, 121, 121);
+  font-size: 35px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-top: 100px;
+  margin-left: 300px;
+  margin-right: 300px;
+  transition: transform 0.2s; /* Animation */
+}
+
+.intro:hover {
+  transform: scale(1.2); /* (150% zoom)*/
+}
+
+.q1 {
+  color: rgb(231, 231, 231);
+  font-size: 25px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  margin-top: 80px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.r1 {
+  color: rgb(63, 63, 63);
+  font-size: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-top: 20px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.r1:hover {
+  text-shadow: 0 0 5px #fff, 0 0 7px #fff, 0 0 10px #fff,
+    0 0 42px rgb(221, 221, 221), 0 0 82px rgb(248, 248, 248),
+    0 0 92px rgb(235, 235, 235), 0 0 102px rgb(235, 235, 235),
+    0 0 151px rgb(240, 240, 240);
+  cursor: pointer;
+}
